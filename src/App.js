@@ -1,10 +1,5 @@
-import React from "react";
-import "./style.css";
 import * as React from 'react';
-import stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-
-import {basicbutton} from "Ui_components/button";
+import { Basicbutton } from './Ui_components/button';
 
 export default function App() {
   return (
@@ -13,7 +8,7 @@ export default function App() {
       <p>Start editing to see some magic happen :)</p>
 
       <button type="button">Click</button>
-      <basicbutton />
+      <Basicbutton />
     </div>
   );
 }
