@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import {basicbutton} from "Ui_components/button";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <p>Start editing to see some magic happen :)</p>
 
       <button type="button">Click</button>
+      <basicbutton />
     </div>
   );
 }
