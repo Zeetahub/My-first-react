@@ -2,6 +2,7 @@ import * as React from 'react';
 import Divider from '@mui/material/Divider';
 import { Basicbutton } from './Ui_components/button';
 import {BasicButtonGroup}from './Ui_components/buttongroup';
+import {CheckBoxes} from './Ui_components/checkbox';
 export default function App() {
   return (
     <div>
@@ -15,6 +16,8 @@ export default function App() {
       <br />
       <br />
       <Divider />
+      <p>CheckBox example from MUI</p>
+      <Checkboxes/>
     </div>
   );
 }
