@@ -10,9 +10,10 @@ export default function App() {
       <Basicbutton />
       <br />
       <Divider />
-      <p>Button example from MUI</p>
+      <p>ButtonGroup example from MUI</p>
       <BasicButtonGroup />
-      <br/>
+      <br />
+      <br />
       <Divider />
     </div>
   );
