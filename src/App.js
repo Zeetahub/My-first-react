@@ -6,6 +6,8 @@ export default function App() {
     <div>
       <h1>Hello Tiger!</h1>
       <p>Start editing to see some magic happen :)</p>
+
+      <button type="button">Click</button>
     </div>
   );
 }
