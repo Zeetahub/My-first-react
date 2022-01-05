@@ -7,7 +7,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import Navigation from '@mui/icon-material/Navigation';
 
 
-export default function FloatingActionButton() {
+export function FloatingActionButton() {
   return (
     <Box sx={{ '& > :not(style)': { m: 1} }}>
       <Fab color="primary" aria-lael="add">
