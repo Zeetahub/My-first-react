@@ -21,7 +21,7 @@ export default function App() {
       <Checkboxes/>
       <br />
       <Divider />
-      <p>Floatingactionbutton example from MUI<p/>
+      <p>Floatingactionbutton example from MUI</p>
       <FloatingActionButton/>
       <br />
       <Divider />
