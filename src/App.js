@@ -6,6 +6,7 @@ import {Checkboxes} from './Ui_components/checkbox';
 import {FloatingActionButton} from './Ui_components/floatingactionbutton'
 import {RowRadioButtongroup} from './Ui_components/radiobutton'
 import { BasicRating } from './Ui_components/rating'
+import { BasicSelect } from './Ui_components/select'
 export default function App() {
   return (
     <div>
@@ -33,6 +34,10 @@ export default function App() {
       <Divider />
       <br />
       <BasicRating  />
+      <br />
+      <Divider />
+      <br />
+      <BasicSelect />
 
       
     </div>
