@@ -8,6 +8,7 @@ import {RowRadioButtongroup} from './Ui_components/radiobutton'
 import { BasicRating } from './Ui_components/rating'
 import { BasicSelect } from './Ui_components/select'
 import { SliderSizes } from './Ui_components/Slider'
+import { BasicSwitches } from './Ui_components/Switch';
 export default function App() {
   return (
     <div>
@@ -43,6 +44,10 @@ export default function App() {
       <Divider />
       <br />
       <SliderSizes />
+      <br />
+      <Divider />
+      <br />
+      <BasicSwitches />
 
 
       
